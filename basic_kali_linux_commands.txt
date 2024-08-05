@@ -1,0 +1,44 @@
+Basic Kali Linux Commands
+
+Navigating the File System
+
+1.pwd: Print working directory.
+2.ls: List files and directories.
+3.ls -l: List with details (permissions, owner, size, etc.).
+4.ls -a: List all files, including hidden files.
+5.cd <directory>: Change directory to <directory>.
+6.mkdir <directory>: Create a new directory named <directory>.
+7.rmdir <directory>: Remove an empty directory named <directory>.
+8.rm <file>: Remove a file.
+9.rm -r <directory>: Remove a directory and its contents recursively.
+
+File Operations
+
+1.cp <source> <destination>: Copy files or directories from <source> to <destination>.
+2.mv <source> <destination>: Move or rename files or directories.
+3.touch <file>: Create a new empty file named <file>.
+4.cat <file>: Display the contents of <file>.
+5.nano <file>: Open <file> in the Nano text editor.
+6.vim <file>: Open <file> in the Vim text editor.
+
+System Information
+
+1,uname -a: Display system information.
+2.df -h: Display disk space usage in human-readable format.
+3.top: Display running processes and their resource usage.
+4.ps aux: Display detailed information about running processes.
+5.ifconfig: Display network interface configuration.
+6.ip a: Display IP address information (more modern than ifconfig).
+
+Package Management
+
+1.apt update: Update the package list.
+2.apt upgrade: Upgrade all installed packages.
+3.apt install <package>: Install a package.
+4.apt remove <package>: Remove a package.
+
+Networking
+
+1.ping <host>: Send ICMP ECHO_REQUEST to <host> to check connectivity.
+2.netstat -tuln: Display network connections, listening ports, and routing tables.
+3.nmap <host>: Scan a host for open ports.
